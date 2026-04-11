@@ -1,9 +1,9 @@
 ---
 layout: default
 title: CV
-permalink: /cv/
+permalink: /cv/ 
 ---
 
 # CV
 
-[Download CV](/assets/cv/CV.pdf)
+[Download CV](/assets/documents/cv.pdf)
