@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Me
-permalink: /cv/
+permalink: /About/
 ---
 
 <style>
