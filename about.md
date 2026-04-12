@@ -5,122 +5,108 @@ permalink: /about/
 ---
 
 <style>
-  body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    padding-top: 20px;
-  }
-
-  .site-header {
+  .profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
     margin-bottom: 30px;
   }
 
-  .site-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0;
+  .profile-intro {
+    flex: 1 1 320px;
+    min-width: 260px;
   }
 
-  .site-subtitle {
+  .profile-photo {
+    flex: 0 0 340px;
+    min-width: 260px;
+  }
+
+  .profile-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .profile-title {
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    font-weight: 800;
+    margin-bottom: 0.35em;
+  }
+
+  .profile-subtitle {
+    font-size: 1.05rem;
+    color: #555;
+    margin-bottom: 0.35em;
+  }
+
+  .profile-line {
     color: #666;
-    margin-bottom: 5px;
+    margin-bottom: 1.2em;
   }
 
-  .site-institution {
-    margin-bottom: 20px;
+  .about-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.85em;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 0.4em;
   }
 
-  .page-nav {
-    margin-bottom: 30px;
-    background-color: #f8f9fa;
-    border-radius: 4px;
-    padding: 10px 15px;
+  .about-copy p {
+    margin-bottom: 1.2em;
+    max-width: 740px;
   }
 
-  .page-nav a {
-    color: #333;
-    font-weight: 500;
-    margin-right: 20px;
+  .profile-links {
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .profile-links a {
+    color: #0366d6;
     text-decoration: none;
-  }
-
-  .page-nav a:hover,
-  .page-nav a:focus,
-  .page-nav a.active {
-    color: #0275d8;
-  }
-
-  h2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
     font-weight: 600;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
   }
 
-  a {
-    color: #0275d8;
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    color: #014c8c;
+  .profile-links a:hover {
     text-decoration: underline;
-  }
-
-  .about-card {
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    padding: 24px;
-  }
-
-  @media (max-width: 768px) {
-    .site-title {
-      font-size: 2rem;
-    }
   }
 </style>
 
-<div class="container">
-  <header class="site-header">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="site-title">About</h1>
-        <p class="site-subtitle">About Me</p>
-        <p class="site-institution">
-          Academic profile and research interests
-        </p>
-      </div>
-    </div>
-  </header>
+<div class="profile-grid">
+  <div class="profile-intro">
+    <p class="profile-title">Yingen Zhu</p>
+    <p class="profile-subtitle">PhD Student</p>
+    <p class="profile-line">Human-computer interaction<br>Wearables and multimodal systems</p>
+  </div>
 
-  <nav class="page-nav" aria-label="Page navigation">
-    <a href="/">Home</a>
-    <a href="/about/" class="active">About</a>
-    <a href="/research/">Research</a>
-    <a href="/gallery/">Gallery</a>
-  </nav>
+  <div class="profile-photo">
+    <img src="/assets/images/profile.jpg" alt="Yingen Zhu">
+  </div>
+</div>
 
-  <main>
-    <div class="row">
-      <div class="col-md-8">
-        <h2>About Me</h2>
-        <div class="about-card">
-          <p>
-            I am a PhD student working at the intersection of human-computer interaction,
-            wearable technologies, multimodal systems, and mobile computing.
-          </p>
-          <p>
-            My research focuses on building interactive systems that connect people,
-            sensing, and intelligent interfaces. I am interested in how novel sensing
-            techniques and interface design can support natural, responsive, and
-            context-aware user experiences.
-          </p>
-        </div>
-      </div>
-    </div>
-  </main>
+<div class="about-copy">
+  <h1 class="about-heading">About Me</h1>
+
+  <p>
+    I am a PhD student working at the intersection of human-computer interaction,
+    wearable technologies, multimodal systems, and mobile computing.
+  </p>
+
+  <p>
+    My research focuses on building interactive systems that connect people,
+    sensing, and intelligent interfaces. I am interested in how novel sensing
+    techniques and interface design can support natural, responsive, and
+    context-aware user experiences.
+  </p>
+</div>
+
+<div class="profile-links">
+  <a href="https://github.com/your-username" target="_blank" rel="noopener">github</a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">google scholar</a>
 </div>
