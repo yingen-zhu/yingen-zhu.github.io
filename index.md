@@ -112,6 +112,8 @@ I am a PhD student interested in building interactive systems that connect peopl
   <nav class="page-nav" aria-label="Main navigation">
     <a href="/" class="active">Home</a>
     <a href="/cv/">CV</a>
+    <a href="/research/">Research</a>
+    <a href="/gallery/">Gallery</a>
   </nav>
 
   <main>
