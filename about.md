@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About Me
-permalink: /About/
+title: About
+permalink: /about/
 ---
 
 <style>
@@ -70,12 +70,7 @@ permalink: /About/
     text-decoration: underline;
   }
 
-  .cv-download {
-    margin-top: 20px;
-    font-size: 1.1rem;
-  }
-
-  .cv-card {
+  .about-card {
     background: #fff;
     border: 1px solid #eee;
     border-radius: 4px;
@@ -93,10 +88,10 @@ permalink: /About/
   <header class="site-header">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="site-title">CV</h1>
-        <p class="site-subtitle">Curriculum Vitae</p>
+        <h1 class="site-title">About</h1>
+        <p class="site-subtitle">About Me</p>
         <p class="site-institution">
-          Academic profile and downloadable document
+          Academic profile and research interests
         </p>
       </div>
     </div>
@@ -104,7 +99,7 @@ permalink: /About/
 
   <nav class="page-nav" aria-label="Page navigation">
     <a href="/">Home</a>
-    <a href="/cv/" class="active">CV</a>
+    <a href="/about/" class="active">About</a>
     <a href="/research/">Research</a>
     <a href="/gallery/">Gallery</a>
   </nav>
@@ -112,13 +107,17 @@ permalink: /About/
   <main>
     <div class="row">
       <div class="col-md-8">
-        <h2>Curriculum Vitae</h2>
-        <div class="cv-card">
+        <h2>About Me</h2>
+        <div class="about-card">
           <p>
-            You can download the full CV using the link below.
+            I am a PhD student working at the intersection of human-computer interaction,
+            wearable technologies, multimodal systems, and mobile computing.
           </p>
-          <p class="cv-download">
-            <a href="/assets/documents/cv.pdf">Download CV</a>
+          <p>
+            My research focuses on building interactive systems that connect people,
+            sensing, and intelligent interfaces. I am interested in how novel sensing
+            techniques and interface design can support natural, responsive, and
+            context-aware user experiences.
           </p>
         </div>
       </div>
