@@ -1,162 +1,111 @@
 ---
 layout: default
 title: About
-title: Home
 ---
 
-# Yingen Zhu
 <style>
-  body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.65;
-    color: #333;
-    padding-top: 20px;
-  }
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
 
-  .site-header {
-    margin-bottom: 42px;
-  }
+.profile-intro {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
 
-  .site-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 1.05;
-    margin-bottom: 6px;
-  }
+.profile-photo {
+  flex: 0 0 340px;
+  min-width: 260px;
+}
 
-  .site-subtitle {
-    color: #555;
-    font-size: 1.05rem;
-    margin-bottom: 10px;
-  }
+.profile-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
 
-  .site-institution {
-    font-size: 1rem;
-    margin-bottom: 0;
-  }
+.profile-title {
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  font-weight: 800;
+  margin-bottom: 0.35em;
+}
 
-  .page-nav {
-    margin-bottom: 34px;
-    background-color: #f5f6f8;
-    border-radius: 4px;
-    padding: 16px 18px;
-  }
+.profile-subtitle {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 0.35em;
+}
 
-  .page-nav a {
-    color: #777;
-    font-weight: 600;
-    margin-right: 18px;
-    text-decoration: none;
-  }
+.profile-line {
+  color: #666;
+  margin-bottom: 1.2em;
+}
 
-  .page-nav a:hover,
-  .page-nav a:focus,
-  .page-nav a.active {
-    color: #222;
-  }
+.about-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.85em;
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 0.4em;
+}
 
-  .intro {
-    font-size: 1.08rem;
-    margin-bottom: 20px;
-  }
+.about-copy p {
+  margin-bottom: 1.2em;
+  max-width: 740px;
+}
 
-  .section-title {
-    margin-top: 34px;
-    margin-bottom: 18px;
-    font-size: 2rem;
-    font-weight: 700;
-    border-bottom: 1px solid #e9e9e9;
-    padding-bottom: 10px;
-  }
+.profile-links {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
 
-  a {
-    color: #0275d8;
-    text-decoration: none;
-  }
+.profile-links a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 600;
+}
 
-  a:hover,
-  a:focus {
-    color: #014c8c;
-    text-decoration: underline;
-  }
-
-  ul {
-    margin-top: 10px;
-    margin-bottom: 18px;
-  }
-
-PhD student working at the intersection of HCI, wearables, multimodal systems, and mobile computing.
-  li {
-    margin-bottom: 8px;
-  }
-
-## About
-  @media (max-width: 768px) {
-    .site-title {
-      font-size: 2.2rem;
-    }
-  }
+.profile-links a:hover {
+  text-decoration: underline;
+}
 </style>
 
-I am a PhD student interested in building interactive systems that connect people, sensing, and intelligent interfaces. My work focuses on human-computer interaction, wearable technologies, multimodal systems, and mobile computing.
-<div class="container">
-  <header class="site-header">
-    <h1 class="site-title">Yingen Zhu</h1>
-    <p class="site-subtitle">PhD Student</p>
-    <p class="site-institution">
-      Human-computer interaction<br>
-      Wearables and multimodal systems
-    </p>
-  </header>
+<div class="profile-grid">
+  <div class="profile-intro">
+    <p class="profile-title">Yingen Zhu</p>
+    <p class="profile-subtitle">PhD Student</p>
+    <p class="profile-line">Human-computer interaction<br>Wearables and multimodal systems</p>
+  </div>
 
-  <nav class="page-nav" aria-label="Main navigation">
-    <a href="/" class="active">Home</a>
-    <a href="/cv/">CV</a>
-    <a href="/research/">Research</a>
-    <a href="/gallery/">Gallery</a>
-  </nav>
+  <div class="profile-photo">
+    <img src="/assets/images/profile.jpg" alt="Yingen Zhu">
+  </div>
+</div>
 
-  <main>
-    <p class="intro">
-      I am a PhD student working at the intersection of
-      human-computer interaction, wearable technologies, multimodal systems,
-      and mobile computing.
-    </p>
+<div class="about-copy">
+  <h1 class="about-heading">About Me</h1>
 
-I am especially interested in how sensing and interface design can support more natural, responsive, and context-aware user experiences.
-    <p>
-      My research focuses on building interactive systems that connect people,
-      sensing, and intelligent interfaces. I am interested in how novel sensing
-      techniques and interface design can support natural, responsive, and
-      context-aware user experiences.
-    </p>
+  <p>
+    I am a PhD student working at the intersection of human-computer interaction,
+    wearable technologies, multimodal systems, and mobile computing.
+  </p>
 
-## Research Interests
-    <h2 class="section-title">Research</h2>
+  <p>
+    My research focuses on building interactive systems that connect people,
+    sensing, and intelligent interfaces. I am interested in how novel sensing
+    techniques and interface design can support natural, responsive, and
+    context-aware user experiences.
+  </p>
+</div>
 
-- Human-computer interaction
-- Wearable systems
-- Multimodal interaction
-- Mobile computing
-    <p>
-      My work explores research questions across HCI, wearables, multimodal
-      interaction, and mobile computing, including:
-    </p>
-
-## Selected Projects
-    <ul>
-      <li>How wearable systems can capture rich signals for interactive experiences.</li>
-      <li>How multimodal sensing can improve robustness and usability in real-world settings.</li>
-      <li>How mobile and embodied interfaces can better support everyday interaction.</li>
-    </ul>
-
-- Distributed IMU Suit
-- XR + multimodal sensing
-    <p>
-      Current project directions include
-      <strong>Distributed IMU Suit</strong> and
-      <strong>XR + multimodal sensing</strong>.
-      You can find a downloadable CV on the <a href="/cv/">CV page</a>.
-    </p>
-  </main>
+<div class="profile-links">
+  <a href="https://github.com/your-username" target="_blank" rel="noopener">github</a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">google scholar</a>
 </div>
