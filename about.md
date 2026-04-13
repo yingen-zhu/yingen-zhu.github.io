@@ -101,7 +101,9 @@ permalink: /about/
   </p>
 </div>
 
+<!--
 <div class="profile-links">
   <a href="https://github.com/your-username" target="_blank" rel="noopener">github</a>
   <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">google scholar</a>
 </div>
+-->
