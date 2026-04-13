@@ -121,6 +121,12 @@ title: Home
           </svg>
           <!-- <span>Google Scholar</span> -->
         </a>
+        <a href="https://www.linkedin.com/in/yingen-zhu-80395b37a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2 2 0 1 0 5.3 7a2 2 0 0 0-.05-4ZM20.44 12.74c0-3.46-1.85-5.07-4.32-5.07-1.99 0-2.88 1.09-3.38 1.86V8.5H9.37c.04.68 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92.27-.68.89-1.39 1.94-1.39 1.37 0 1.92 1.05 1.92 2.58V20h3.37l.34-7.26Z"></path>
+          </svg>
+          <!-- <span>LinkedIn</span> -->
+        </a>
       </div>
 
       <section class="news-section" aria-labelledby="news-title">
