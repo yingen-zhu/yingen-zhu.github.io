@@ -85,7 +85,7 @@ title: About
   </div>
 
   <div class="profile-photo">
-    <img src="/assets/images/profile.jpg" alt="Yingen Zhu">
+    <img src="/assets/images/profile.JPG" alt="Yingen Zhu">
   </div>
 </div>
 
