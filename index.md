@@ -104,7 +104,7 @@ title: Home
 <div class="profile-grid">
   <div class="profile-intro">
     <p class="profile-title">Yingen Zhu</p>
-    <p class="profile-title">Email: yingen@u.nus.edu</p>
+    <p class="profile-title" style="font-size: 15px;">Email: yingen@u.nus.edu</p>
     <p class="profile-subtitle">Ph.D. at National Univeristy of Singapore<br>M.Sc. at Southern Univeristy of Science and Technology<br>B.Sc. at Xiangtan University</p>
     
     <section class="Research" aria-labelledby="Research-title">
