@@ -4,7 +4,7 @@ title: Gallery
 permalink: /gallery/
 ---
 
-# Visual Portfolio
+# Visual Records 
 
 ## IMU Suit
 
