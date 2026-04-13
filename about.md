@@ -103,6 +103,10 @@ permalink: /about/
   <li>Mobile computing</li>
 </ul>
 
+  <p>
+  Outside of research, I like sleeping and spicy food.
+  </p>
+
 </div>
 
 <!--
