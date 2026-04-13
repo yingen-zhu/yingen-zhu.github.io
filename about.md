@@ -57,7 +57,6 @@ permalink: /about/
 
   .about-copy p {
     margin-bottom: 1.2em;
-    max-width: 740px;
   }
 
   .profile-links {
