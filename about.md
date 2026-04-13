@@ -89,7 +89,7 @@ permalink: /about/
   <h1 class="about-heading">About Me</h1>
 
   <p>
-  I am a PhD student in <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>,   working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>.
+  I am a PhD student in <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>,   working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted research in healthcare under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>
   </p>
 
   <p>
