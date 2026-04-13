@@ -8,6 +8,7 @@ permalink: /gallery/
 
 ### NUS, Singapore
 <img src="/assets/images/nus.jpg" alt="nus" style="width: 520px; max-width: 100%; height: auto;">
+
 ---
 
 ### SUSTech, China
