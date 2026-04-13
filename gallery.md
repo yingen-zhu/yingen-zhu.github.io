@@ -7,10 +7,12 @@ permalink: /gallery/
 # Visual Records 
 
 ## NUS, Singapore
-![nus](/assets/images/nus.jpg)
+<img src="/assets/images/nus.jpg" alt="nus" style="width: 520px; max-width: 100%; height: auto;">
+
 
 ---
 
 ## SUSTech, China
-![sustech](/assets/images/sustech.JPG)
+<img src="/assets/images/sustech.JPG" alt="sustech" style="width: 520px; max-width: 100%; height: auto;">
+
 
