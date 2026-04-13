@@ -62,19 +62,14 @@ title: Home
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 14px;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
   color: #111;
-  background: #fafafa;
   text-decoration: none;
   font-weight: 600;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .profile-links a:hover {
-  background: #f1f1f1;
-  border-color: #d5d5d5;
+  color: #000;
   transform: translateY(-1px);
 }
 
@@ -86,10 +81,7 @@ title: Home
 }
 
 .news-section {
-  padding: 18px 20px;
-  border-radius: 14px;
-  background: #fafafa;
-  border: 1px solid #ececec;
+  padding: 0;
 }
 
 .news-title {
