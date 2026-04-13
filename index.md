@@ -91,5 +91,5 @@ title: About
 
 <div class="profile-links">
   <a href="https://github.com/your-username" target="_blank" rel="noopener">github</a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">google scholar</a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID&user=oDyHLIwAAAAJ&inst=3212728378801010220" target="_blank" rel="noopener">google scholar</a>
 </div>
