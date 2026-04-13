@@ -93,7 +93,7 @@ permalink: /about/
   </p>
 
   <p>
-    My research focuses on:
+    🙇My research focuses on:
   </p>
 
   <ul>
@@ -104,7 +104,7 @@ permalink: /about/
 </ul>
 
   <p>
-  Outside of research, I like sleeping and spicy food.
+  Outside of research, I like sleeping💤 and spicy food🌶️.
   </p>
 
 </div>
