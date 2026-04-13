@@ -25,6 +25,6 @@ Camera-based contactless physiological monitoring is promising for sleep trackin
 ### Smartphone Health Assistant
 We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time.
 
-<!--![Camera-based bimodal CMRI gating system](/assets/images/imu1.png)-->
+<!--![Smartphone](/assets/images/phoneAssistant.png)-->
 
 
