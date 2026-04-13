@@ -79,11 +79,6 @@ permalink: /about/
 </style>
 
 <div class="profile-grid">
-  <div class="profile-intro">
-    <p class="profile-title">Yingen Zhu</p>
-    <p class="profile-subtitle">PhD Student</p>
-    <p class="profile-line">Human-computer interaction<br>Wearables and multimodal systems</p>
-  </div>
 
   <div class="profile-photo">
     <img src="/assets/images/profile2.JPG" alt="Yingen Zhu">
