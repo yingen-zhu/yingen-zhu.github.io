@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  margin: 40px;
+  margin: 32px 40px;
 }
 
 nav {
@@ -25,10 +29,21 @@ nav a:active {
 }
 
 .container {
-  max-width: 800px;
+  width: min(1280px, 100%);
+  margin: 0 auto;
 }
 
 img {
   width: 100%;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  nav {
+    padding: 10px 16px;
+  }
 }
