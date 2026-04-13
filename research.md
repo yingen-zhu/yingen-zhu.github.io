@@ -8,6 +8,8 @@ permalink: /research/
 
 ## Projects
 
+---
+
 ### Camera-based bimodal CMRI gating system
 We developed a non-contact CMR gating approach in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial PPG and thoracoabdominal SCG signals for robust trigger generation, aiming to alleviate waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience.
 
