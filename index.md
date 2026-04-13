@@ -105,7 +105,7 @@ title: Home
   <div class="profile-intro">
     <p class="profile-title">Yingen Zhu</p>
     <p class="profile-subtitle">PhD Student</p>
-    <p class="profile-line">Human-computer interaction<br>Wearables and multimodal systems</p>
+    <p class="profile-line">Mobile computing<br>Human-computer interaction<br>Wearables and multimodal systems</p>
 
     <div class="profile-panel">
       <div class="profile-links">
