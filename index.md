@@ -104,8 +104,9 @@ title: Home
 <div class="profile-grid">
   <div class="profile-intro">
     <p class="profile-title">Yingen Zhu</p>
-    <p class="profile-subtitle">Ph.D. at National Univeristy of Singapore</p>
-    <p class="profile-line">M.Sc. at Southern Univeristy of Science and Technology<br>B.Sc. at Xiangtan University</p>
+    <p class="profile-subtitle">Ph.D. at National Univeristy of Singapore<br>M.Sc. at Southern Univeristy of Science and Technology<br>B.Sc. at Xiangtan University</p>
+    <p class="profile-line">Research</p>
+    <p class="profile-subtitle">Mobile Computing<br>Wearable System<br>Human Computer Interaction</p>
 
     <div class="profile-panel">
       <div class="profile-links">
