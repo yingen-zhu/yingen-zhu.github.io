@@ -24,7 +24,7 @@ Camera-based contactless physiological monitoring is promising for sleep trackin
 
 ### Smartphone Health Assistant
 We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time.
-<img src="/assets/images/SleepMonitoring.png" alt="Sleep Monitoring" style="width: 520px; max-width: 100%; height: auto;">
+<img src="/assets/images/phoneAssistant.png" alt="Smartphone" style="width: 520px; max-width: 100%; height: auto;">
 <!-- ![Smartphone](/assets/images/phoneAssistant.png) -->
 
 
