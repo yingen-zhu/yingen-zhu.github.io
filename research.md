@@ -8,6 +8,9 @@ permalink: /research/
 
 ## Projects
 
+### Camera-based bimodal CMRI gating system
+We developed a non-contact CMR gating approach in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial PPG and thoracoabdominal SCG signals for robust trigger generation, aiming to alleviate waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience.
+
 ### Sleep Monitoring
 Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network.
 
