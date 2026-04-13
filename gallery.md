@@ -6,16 +6,11 @@ permalink: /gallery/
 
 # Visual Records 
 
-## Singapore
-
-![imu](/assets/images/imu1.png)
-
-Distributed wearable sensing nodes with flexible PCB and silicone encapsulation.
+## NUS, Singapore
+![nus](/assets/images/nus.jpg)
 
 ---
 
-## Shenzhen, China
+## SUSTech, China
+![sustech](/assets/images/sustech.JPG)
 
-![xr](/assets/images/xr1.png)
-
-Multimodal sensing + immersive interaction.
