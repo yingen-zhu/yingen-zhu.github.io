@@ -7,7 +7,7 @@ permalink: /research/
 # Research
 
 ## Projects
-For more details of these projects, please find in my <a href="https://scholar.google.com.hk/citations?user=oDyHLIwAAAAJ&hl=zh-CN" target="_blank" rel="noopener">google scholar</a>
+For further details on these projects, please see my <a href="https://scholar.google.com.hk/citations?user=oDyHLIwAAAAJ&hl=zh-CN" target="_blank" rel="noopener">google scholar</a>.
 
 ---
 
