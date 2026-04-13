@@ -86,7 +86,7 @@ permalink: /about/
   </div>
 
   <div class="profile-photo">
-    <img src="/assets/images/profile.jpg" alt="Yingen Zhu">
+    <img src="/assets/images/profile2.JPG" alt="Yingen Zhu">
   </div>
 </div>
 
