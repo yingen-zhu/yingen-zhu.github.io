@@ -17,8 +17,8 @@ We developed a non-contact CMR gating approach in collaboration with Shanghai Ne
 
 ### Sleep Monitoring
 Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network.
-
-![Camera-based bimodal CMRI gating system](/assets/images/SleepMonitoring.png)
+<img src="/assets/images/SleepMonitoring.png" alt="Sleep Monitoring" style="width: 520px; max-width: 100%; height: auto;">
+<!-- ![Camera-based bimodal CMRI gating system](/assets/images/SleepMonitoring.png) -->
 
 ---
 
