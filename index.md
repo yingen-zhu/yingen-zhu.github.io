@@ -132,7 +132,7 @@ title: Home
       <section class="news-section" aria-labelledby="news-title">
         <h2 class="news-title" id="news-title">News</h2>
         <ul class="news-list">
-          <li>Latest updates coming soon. You can replace this line with your newest publication, award, or talk.</li>
+          <li>[2025.08]🕵️I start my PhD journey!</li>
         </ul>
       </section>
     </div>
