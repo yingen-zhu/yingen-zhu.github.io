@@ -89,22 +89,6 @@ title: About
   </div>
 </div>
 
-<div class="about-copy">
-  <h1 class="about-heading">About Me</h1>
-
-  <p>
-    I am a PhD student working at the intersection of human-computer interaction,
-    wearable technologies, multimodal systems, and mobile computing.
-  </p>
-
-  <p>
-    My research focuses on building interactive systems that connect people,
-    sensing, and intelligent interfaces. I am interested in how novel sensing
-    techniques and interface design can support natural, responsive, and
-    context-aware user experiences.
-  </p>
-</div>
-
 <div class="profile-links">
   <a href="https://github.com/your-username" target="_blank" rel="noopener">github</a>
   <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">google scholar</a>
