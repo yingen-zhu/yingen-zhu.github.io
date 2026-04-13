@@ -96,14 +96,14 @@ permalink: /about/
   </p>
 
   <ul>
-  <li>Human-computer interaction</li>
-  <li>Wearable technologies</li>
-  <li>Multimodal systems</li>
   <li>Mobile computing</li>
+  <li>Multimodal systems</li>
+  <li>Wearable technologies</li>
+  <li>Human-computer interaction</li>
 </ul>
 
   <p>
-  Outside of research, I like sleeping💤 and spicy food🌶️.
+  Fueled by spicy food🌶️, powered by naps😴, and guided by nowhere😵‍💫 in particular.
   </p>
 
 </div>
