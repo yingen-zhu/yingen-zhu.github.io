@@ -89,16 +89,20 @@ permalink: /about/
   <h1 class="about-heading">About Me</h1>
 
   <p>
-    I am a PhD student working at the intersection of human-computer interaction,
-    wearable technologies, multimodal systems, and mobile computing.
+  I am a PhD student in <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>,   working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>.
   </p>
 
   <p>
-    My research focuses on building interactive systems that connect people,
-    sensing, and intelligent interfaces. I am interested in how novel sensing
-    techniques and interface design can support natural, responsive, and
-    context-aware user experiences.
+    My research focuses on:
   </p>
+
+  <ul>
+  <li>Human-computer interaction</li>
+  <li>Wearable technologies</li>
+  <li>Multimodal systems</li>
+  <li>Mobile computing</li>
+</ul>
+
 </div>
 
 <!--
