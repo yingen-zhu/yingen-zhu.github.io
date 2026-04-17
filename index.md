@@ -111,12 +111,18 @@ title: Home
     
     <section class="Research" aria-labelledby="Research-title">
       <h2 class="Research-title" id="news-title">Research</h2>
-      <ul class="Research-list">
-        <li>Mobile Computing</li>
-        <li>Wearable System</li>
-        <li>Human Computer Interaction</li>
+      <p>
+        🙇My research focuses on:
+      </p>
+      <ul>
+        <li>Mobile computing</li>
+        <li>Multimodal systems</li>
+        <li>Wearable technologies</li>
+        <li>Human-computer interaction</li>
       </ul>
     </section>
+
+
 
     <div class="profile-panel">
       <div class="profile-links">
