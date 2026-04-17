@@ -108,18 +108,15 @@ title: Home
     <p>
       I am a PhD student in <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted research in healthcare under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>.
     </p>
-      <p>
-        🙇My research focuses on:
-      </p>
+    <p>
+      🙇My research focuses on:
+    </p>
       <ul>
         <li>Mobile computing</li>
         <li>Multimodal systems</li>
         <li>Wearable technologies</li>
         <li>Human-computer interaction</li>
       </ul>
-
-
-
     <div class="profile-panel">
       <div class="profile-links">
         <a href="https://github.com/yingen-zhu" target="_blank" rel="noopener" aria-label="GitHub">
