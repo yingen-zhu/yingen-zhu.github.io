@@ -137,6 +137,12 @@ title: Home
           </svg>
           <!-- <span>LinkedIn</span> -->
         </a>
+        <a href="/assets/documents/cv.pdf" target="_blank" rel="noopener" aria-label="CV">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0-6h5v1.5H8V9z"/>
+        </svg>
+        <!-- <span>CV</span> -->
+        </a>
       </div>
 
       <section class="news-section" aria-labelledby="news-title">
