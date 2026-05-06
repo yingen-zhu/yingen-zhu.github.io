@@ -136,12 +136,11 @@ title: Home
     height: 44px;
     border-radius: 12px;
     background: transparent;
-    border: 1px solid #111;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: #111;
-    transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    transition: transform 0.2s ease, color 0.2s ease;
   }
   .social-links a svg {
     width: 20px;
@@ -150,7 +149,6 @@ title: Home
   .social-links a:hover {
     transform: translateY(-2px);
     color: #0a3d91;
-    border-color: #0a3d91;
   }
   .news-section {
     background: transparent;
@@ -204,6 +202,7 @@ title: Home
       <li>Multimodal systems</li>
       <li>Wearable technologies</li>
       <li>Human-computer interaction</li>
+      <li>Test</li>
     </ul>
 
     <div class="profile-actions">
