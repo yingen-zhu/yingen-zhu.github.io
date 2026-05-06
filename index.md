@@ -51,17 +51,85 @@ title: Home
   }
   .profile-hero {
     display: grid;
-    grid-template-columns: minmax(240px, 360px) 1fr;
+    grid-template-columns: minmax(280px, 360px) 1fr;
     gap: 44px;
     align-items: start;
     padding: 30px 0 60px;
   }
+  .profile-sidebar {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+    display: grid;
+    gap: 28px;
+  }
   .profile-photo img {
     width: 100%;
     height: auto;
-    border-radius: 0;
-    box-shadow: none;
+    border-radius: 20px;
+    box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
     display: block;
+  }
+  .profile-summary {
+    display: grid;
+    gap: 12px;
+  }
+  .profile-name {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.05;
+    font-weight: 800;
+    color: #111;
+  }
+  .profile-role {
+    margin: 0;
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .profile-location {
+    margin: 0;
+    color: #555;
+    font-size: 0.98rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .profile-actions.sidebar-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .profile-actions.sidebar-actions .button,
+  .profile-actions.sidebar-actions a.social-link {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 14px 16px;
+    border-radius: 14px;
+    font-size: 0.98rem;
+  }
+  .profile-actions.sidebar-actions .button {
+    background: transparent;
+    border: 1.5px solid #0a3d91;
+    color: #0a3d91;
+  }
+  .profile-actions.sidebar-actions .button:hover {
+    background: rgba(10, 61, 145, 0.08);
+  }
+  .profile-actions.sidebar-actions .social-link {
+    border: 1.5px solid #e2e2e2;
+    color: #111;
+    padding: 14px 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-start;
+    text-decoration: none;
+    background: #fff;
+  }
+  .profile-actions.sidebar-actions .social-link svg {
+    width: 18px;
+    height: 18px;
   }
   .profile-copy .email-line {
     margin: 0 0 18px;
@@ -102,7 +170,7 @@ title: Home
     position: absolute;
     left: 0;
     top: 0;
-    color: #0a3d91;
+    color: #111;
   }
   .profile-actions {
     display: flex;
@@ -150,7 +218,6 @@ title: Home
     color: #0a3d91;
   }
   .news-section {
-    grid-column: 1 / -1;
     background: transparent;
     border-radius: 0;
     padding: 0;
@@ -174,6 +241,10 @@ title: Home
     .profile-hero {
       grid-template-columns: 1fr;
     }
+    .profile-sidebar {
+      position: relative;
+      top: auto;
+    }
   }
   @media (max-width: 640px) {
     .site-header,
@@ -188,11 +259,24 @@ title: Home
 </style>
 
 <div class="profile-hero">
-  <div class="profile-photo">
-    <img src="/assets/images/profile.JPG" alt="Yingen Zhu">
-  </div>
+  <aside class="profile-sidebar">
+    <div class="profile-photo">
+      <img src="/assets/images/profile.JPG" alt="Yingen Zhu">
+    </div>
+    <div class="profile-summary">
+      <p class="profile-name">Yingen Zhu</p>
+      <p class="profile-role">PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a></p>
+      <p class="profile-location">📍 Singapore</p>
+    </div>
+    <div class="profile-actions sidebar-actions">
+      <a class="button" href="/assets/documents/cv.pdf" target="_blank" rel="noopener">CV</a>
+      <a class="social-link" href="https://github.com/yingen-zhu" target="_blank" rel="noopener">GitHub</a>
+      <a class="social-link" href="https://www.linkedin.com/in/yingen-zhu-80395b37a/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="social-link" href="https://scholar.google.com/citations?user=oDyHLIwAAAAJ&inst=3212728378801010220" target="_blank" rel="noopener">Google Scholar</a>
+    </div>
+  </aside>
 
-  <div class="profile-copy">
+  <div class="profile-main">
     <p class="email-line">📮 yingen@u.nus.edu</p>
     <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>.</p>
     <p>My research explores the intersection of mobile computing, multimodal systems, wearable technologies, and human-computer interaction.</p>
@@ -204,37 +288,12 @@ title: Home
       <li>Human-computer interaction</li>
     </ul>
 
-    <div class="profile-actions">
-      <div class="social-links">
-        <a href="/assets/documents/cv.pdf" target="_blank" rel="noopener" aria-label="CV">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0-6h5v1.5H8V9z"/>
-          </svg>
-        </a>
-        <a href="https://github.com/yingen-zhu" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
-          </svg>
-        </a>
-        <a href="https://scholar.google.com/citations?user=oDyHLIwAAAAJ&inst=3212728378801010220" target="_blank" rel="noopener" aria-label="Google Scholar">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm0 14L5.09 13.23 4 13.82V17l8 4 8-4v-3.18l-1.09-.59L12 17Z"/>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/yingen-zhu-80395b37a/" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2 2 0 1 0 5.3 7a2 2 0 0 0-.05-4ZM20.44 12.74c0-3.46-1.85-5.07-4.32-5.07-1.99 0-2.88 1.09-3.38 1.86V8.5H9.37c.04.68 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92.27-.68.89-1.39 1.94-1.39 1.37 0 1.92 1.05 1.92 2.58V20h3.37l.34-7.26Z"/>
-          </svg>
-        </a>
-      </div>
-    </div>
+    <section class="news-section" aria-labelledby="news-title">
+      <h2 class="news-title" id="news-title">News</h2>
+      <ul class="news-list">
+        <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
+        <li>[2025.08] 🕵️ I start my PhD journey!</li>
+      </ul>
+    </section>
   </div>
-
-  <section class="news-section" aria-labelledby="news-title">
-    <h2 class="news-title" id="news-title">News</h2>
-    <ul class="news-list">
-      <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
-      <li>[2025.08] 🕵️ I start my PhD journey!</li>
-    </ul>
-  </section>
 </div>
