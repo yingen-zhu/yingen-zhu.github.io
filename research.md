@@ -30,6 +30,8 @@ permalink: /research/
   display: block;
   border-radius: 20px;
   box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
+  image-orientation: from-image;
+  transform: none;
 }
 .research-content h3 {
   margin: 0 0 18px;
