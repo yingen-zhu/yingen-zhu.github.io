@@ -59,15 +59,17 @@ title: Home
   .profile-photo img {
     width: 100%;
     height: auto;
-    border-radius: 24px;
+    border-radius: 0;
     box-shadow: none;
     display: block;
   }
-  .profile-copy h1 {
-    font-size: clamp(2.8rem, 4.2vw, 3.6rem);
-    line-height: 1.02;
+  .profile-copy .email-line {
     margin: 0 0 18px;
-    font-weight: 800;
+    color: #555;
+    font-size: 0.98rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
   }
   .profile-copy p,
   .news-section p,
@@ -75,12 +77,12 @@ title: Home
     color: #333;
     line-height: 1.75;
   }
-  .profile-copy a {
+  main a {
     color: #2c7dff;
     text-decoration: none;
   }
-  .profile-copy a:hover,
-  .profile-copy a:focus {
+  main a:hover,
+  main a:focus {
     text-decoration: underline;
   }
   .profile-copy ul {
@@ -132,17 +134,23 @@ title: Home
   .social-links a {
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    background: #111;
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid #111;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    transition: transform 0.2s ease, background 0.2s ease;
+    color: #111;
+    transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .social-links a svg {
+    width: 20px;
+    height: 20px;
   }
   .social-links a:hover {
     transform: translateY(-2px);
-    background: #0a3d91;
+    color: #0a3d91;
+    border-color: #0a3d91;
   }
   .news-section {
     background: transparent;
@@ -178,9 +186,6 @@ title: Home
     .site-nav {
       gap: 16px;
     }
-    .profile-copy h1 {
-      font-size: clamp(2.4rem, 9vw, 3.2rem);
-    }
   }
 </style>
 
@@ -190,8 +195,7 @@ title: Home
   </div>
 
   <div class="profile-copy">
-    <h1>Yingen Zhu</h1>
-    <p>📮 <strong>yingen@u.nus.edu</strong></p>
+    <p class="email-line">📮 yingen@u.nus.edu</p>
     <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>.</p>
     <p>My research explores the intersection of mobile computing, multimodal systems, wearable technologies, and human-computer interaction.</p>
 
