@@ -66,11 +66,9 @@ title: Home
   .profile-photo img {
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 0;
     box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
     display: block;
-    image-orientation: from-image;
-    transform: rotate(180deg);
   }
   .profile-summary {
     display: grid;
@@ -305,16 +303,14 @@ title: Home
   <div class="profile-main">
     <p class="email-line">📮 yingen@u.nus.edu</p>
     <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>.</p>
-    <p>My research explores the intersection of mobile computing, multimodal systems, wearable technologies, and human-computer interaction.</p>
-
+    <p>My research interests:</p>
     <ul>
       <li>Mobile computing</li>
       <li>Multimodal systems</li>
       <li>Wearable technologies</li>
       <li>Human-computer interaction</li>
     </ul>
-
-    <section class="news-section" aria-labelledby="news-title">
+      <section class="news-section" aria-labelledby="news-title">
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
