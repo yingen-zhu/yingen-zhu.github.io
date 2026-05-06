@@ -150,6 +150,7 @@ title: Home
     color: #0a3d91;
   }
   .news-section {
+    grid-column: 1 / -1;
     background: transparent;
     border-radius: 0;
     padding: 0;
@@ -227,13 +228,13 @@ title: Home
         </a>
       </div>
     </div>
-
-    <section class="news-section" aria-labelledby="news-title">
-      <h2 class="news-title" id="news-title">News</h2>
-      <ul class="news-list">
-        <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
-        <li>[2025.08] 🕵️ I start my PhD journey!</li>
-      </ul>
-    </section>
   </div>
+
+  <section class="news-section" aria-labelledby="news-title">
+    <h2 class="news-title" id="news-title">News</h2>
+    <ul class="news-list">
+      <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
+      <li>[2025.08] 🕵️ I start my PhD journey!</li>
+    </ul>
+  </section>
 </div>
