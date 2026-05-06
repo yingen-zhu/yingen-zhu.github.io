@@ -70,7 +70,7 @@ title: Home
     box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
     display: block;
     image-orientation: from-image;
-    transform: none;
+    transform: rotate(180deg);
   }
   .profile-summary {
     display: grid;
@@ -268,8 +268,13 @@ title: Home
       <p class="profile-name">Yingen Zhu</p>
       <p class="profile-role">PhD at NUS</p>
     </div>
-    <p class="profile-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>Singapore</p>
     <div class="sidebar-links">
+      <a class="sidebar-link" href="https://yingen-zhu.github.io/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+        </svg>
+        <span>Singapore</span>
+      </a>
       <a class="sidebar-link" href="/assets/documents/cv.pdf" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0-6h5v1.5H8V9z"/>
