@@ -297,11 +297,16 @@ title: Home
         </svg>
         <span>Google Scholar</span>
       </a>
+      <a class="sidebar-link" href="mailto:yingen@u.nus.edu">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        <span>Email:yingen@u.nus.edu</span>
+      </a>
     </div>
   </aside>
 
   <div class="profile-main">
-    <p class="email-line">📮 yingen@u.nus.edu</p>
     <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>.</p>
     <p>My research interests:</p>
     <ul>
@@ -313,7 +318,7 @@ title: Home
       <section class="news-section" aria-labelledby="news-title">
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
-        <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
+        <li>[2026.08] 🤦‍ Survived 2 PhD semesters </li>
         <li>[2025.08] 🕵️ I start my PhD journey!</li>
       </ul>
     </section>
