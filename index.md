@@ -69,17 +69,25 @@ title: Home
     border-radius: 20px;
     box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
     display: block;
+    image-orientation: from-image;
+    transform: none;
   }
   .profile-summary {
     display: grid;
     gap: 6px;
   }
-  .profile-name,
-  .profile-role {
+  .profile-name {
     margin: 0;
     font-size: 1.35rem;
     line-height: 1.2;
     font-weight: 700;
+    color: #111;
+  }
+  .profile-role {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.4;
+    font-weight: 400;
     color: #111;
   }
   .profile-role a {
@@ -258,9 +266,9 @@ title: Home
     </div>
     <div class="profile-summary">
       <p class="profile-name">Yingen Zhu</p>
-      <p class="profile-role">PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a></p>
-      <p class="profile-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg> Singapore</p>
+      <p class="profile-role">PhD at NUS</p>
     </div>
+    <p class="profile-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>Singapore</p>
     <div class="sidebar-links">
       <a class="sidebar-link" href="/assets/documents/cv.pdf" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true">
