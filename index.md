@@ -202,7 +202,6 @@ title: Home
       <li>Multimodal systems</li>
       <li>Wearable technologies</li>
       <li>Human-computer interaction</li>
-      <li>Test</li>
     </ul>
 
     <div class="profile-actions">
@@ -233,6 +232,7 @@ title: Home
     <section class="news-section" aria-labelledby="news-title">
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
+        <li>[2026.08] 🤦‍Survived 2 PhD semesters </li>
         <li>[2025.08] 🕵️ I start my PhD journey!</li>
       </ul>
     </section>
