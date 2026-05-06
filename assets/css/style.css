@@ -173,17 +173,12 @@ main {
   height: 44px;
     border-radius: 12px;
     background: transparent;
-    border: 1px solid #111;
+    border: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: #111;
-    transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  }
-
-  .social-links a svg {
-    width: 20px;
-    height: 20px;
+    transition: transform 0.2s ease, color 0.2s ease;
   }
 
   .social-links a:hover {
