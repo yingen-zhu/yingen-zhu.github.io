@@ -3,6 +3,177 @@ layout: default
 title: Home
 ---
 
+<style>
+  :root {
+    color-scheme: light;
+  }
+  body {
+    margin: 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f8f8f8;
+    color: #111;
+  }
+  .container {
+    width: min(1080px, 100%);
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .site-header {
+    background: #111;
+    color: #fff;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 0;
+  }
+  .brand a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .site-nav {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .site-nav a {
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.82;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus {
+    opacity: 1;
+  }
+  .profile-hero {
+    display: grid;
+    grid-template-columns: minmax(240px, 360px) 1fr;
+    gap: 44px;
+    align-items: start;
+    padding: 30px 0 60px;
+  }
+  .profile-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
+    display: block;
+  }
+  .profile-copy h1 {
+    font-size: clamp(3rem, 5vw, 4rem);
+    line-height: 1;
+    margin: 0 0 18px;
+    font-weight: 800;
+  }
+  .profile-copy p,
+  .news-section p,
+  .news-list {
+    color: #333;
+    line-height: 1.75;
+  }
+  .profile-copy ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, max-content));
+    gap: 10px 24px;
+  }
+  .profile-copy li {
+    position: relative;
+    padding-left: 20px;
+    color: #444;
+  }
+  .profile-copy li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #0a3d91;
+  }
+  .profile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 12px;
+    border: 1.5px solid #0a3d91;
+    color: #0a3d91;
+    font-weight: 700;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .button:hover {
+    background: rgba(10, 61, 145, 0.1);
+    transform: translateY(-1px);
+  }
+  .social-links {
+    display: flex;
+    gap: 12px;
+  }
+  .social-links a {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #111;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  .social-links a:hover {
+    transform: translateY(-2px);
+    background: #0a3d91;
+  }
+  .news-section {
+    background: #fff;
+    border-radius: 22px;
+    padding: 28px 32px;
+    box-shadow: 0 18px 40px rgba(17, 17, 17, 0.08);
+  }
+  .news-title {
+    margin: 0 0 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .news-list {
+    margin: 0;
+    padding-left: 20px;
+    color: #444;
+  }
+  .news-list li + li {
+    margin-top: 12px;
+  }
+  @media (max-width: 900px) {
+    .profile-hero {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 640px) {
+    .site-header,
+    .profile-hero {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .site-nav {
+      gap: 16px;
+    }
+    .profile-copy h1 {
+      font-size: clamp(2.4rem, 9vw, 3.2rem);
+    }
+  }
+</style>
+
 <div class="profile-hero">
   <div class="profile-photo">
     <img src="/assets/images/profile.JPG" alt="Yingen Zhu">
