@@ -171,20 +171,20 @@ main {
 .social-links a {
   width: 44px;
   height: 44px;
-    border-radius: 12px;
-    background: transparent;
-    border: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #111;
-    transition: transform 0.2s ease, color 0.2s ease;
-  }
+  border-radius: 12px;
+  background: transparent;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
 
-  .social-links a:hover {
-    transform: translateY(-2px);
-    color: #0a3d91;
-    border-color: #0a3d91;
+.social-links a:hover {
+  transform: translateY(-2px);
+  color: #0a3d91;
+}
 
 .news-title {
   margin: 0 0 16px;
