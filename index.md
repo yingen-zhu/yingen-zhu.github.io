@@ -89,9 +89,8 @@ title: Home
     list-style: none;
     padding: 0;
     margin: 0 0 28px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, max-content));
-    gap: 10px 24px;
+    display: block;
+    gap: 0;
   }
   .profile-copy li {
     position: relative;
