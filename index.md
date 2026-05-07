@@ -234,7 +234,7 @@ title: Home
     color: #444;
   }
   .news-list li + li {
-    margin-top: 12px;
+    margin-top: 4px;
   }
   @media (max-width: 900px) {
     .profile-hero {
