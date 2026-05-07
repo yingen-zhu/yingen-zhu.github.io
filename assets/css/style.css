@@ -82,9 +82,10 @@ main {
   padding: 20px 0 48px;
 }
 
-.profile-photo {
+.profile-sidebar {
   position: sticky;
   top: 24px;
+  align-self: start;
 }
 
 .profile-photo img {
@@ -207,7 +208,7 @@ main {
     grid-template-columns: 1fr;
   }
 
-  .profile-photo {
+  .profile-sidebar {
     position: relative;
     top: 0;
   }
