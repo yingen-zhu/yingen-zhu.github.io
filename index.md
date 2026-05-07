@@ -51,7 +51,7 @@ title: Home
   }
   .profile-hero {
     display: grid;
-    grid-template-columns: minmax(280px, 360px) 1fr;
+    grid-template-columns: minmax(186px, 240px) 1fr;
     gap: 44px;
     align-items: start;
     padding: 30px 0 60px;
@@ -301,7 +301,7 @@ title: Home
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
         </svg>
-        <span>Email:yingen@u.nus.edu</span>
+        <span>yingen@u.nus.edu</span>
       </a>
     </div>
   </aside>
