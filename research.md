@@ -64,7 +64,7 @@ For further details on these projects, please see my <a href="https://scholar.go
 <section class="research-list">
   <article class="research-item">
     <div class="research-media">
-      <img src="/assets/images/imu1.png" alt="Camera-based bimodal CMRI gating system">
+      <img src="/assets/images/FigureLock.pdf" alt="Camera-based bimodal CMRI gating system">
     </div>
     <div class="research-content">
       <h3>Camera-based bimodal CMRI gating system</h3>
