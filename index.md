@@ -232,6 +232,7 @@ title: Home
     margin: 0;
     padding-left: 20px;
     color: #444;
+    line-height: 1.35;
   }
   .news-list li + li {
     margin-top: 4px;
