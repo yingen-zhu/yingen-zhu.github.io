@@ -35,7 +35,8 @@ permalink: /research/
 }
 .research-media iframe {
   width: 100%;
-  height: 280px;
+  aspect-ratio: 1.6;
+  height: auto;
   display: block;
   border: 0;
   box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
@@ -102,4 +103,3 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
   </article>
 </section>
-
