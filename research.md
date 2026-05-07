@@ -33,6 +33,13 @@ permalink: /research/
   image-orientation: from-image;
   transform: none;
 }
+.research-media iframe {
+  width: 100%;
+  height: 280px;
+  display: block;
+  border: 0;
+  box-shadow: 0 24px 60px rgba(17, 17, 17, 0.12);
+}
 .research-content h3 {
   margin: 0 0 18px;
   font-size: 1.6rem;
@@ -64,7 +71,10 @@ For further details on these projects, please see my <a href="https://scholar.go
 <section class="research-list">
   <article class="research-item">
     <div class="research-media">
-      <img src="/assets/images/FigureLock.pdf" alt="Camera-based bimodal CMRI gating system">
+      <iframe
+        src="/assets/images/FigureLock.pdf"
+        title="Camera-based bimodal CMRI gating system PDF"
+      ></iframe>
     </div>
     <div class="research-content">
       <h3>Camera-based bimodal CMRI gating system</h3>
@@ -92,5 +102,4 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
   </article>
 </section>
-
 
