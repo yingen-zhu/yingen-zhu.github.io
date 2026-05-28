@@ -79,7 +79,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Camera-based bimodal CMRI gating system</h3>
-      <p>We developed a non-contact CMR (Cardiac Magnetic Resonance) gating system in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial rPPG and chest SCG signals for robust triggers, aiming to reduce waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience. [<a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:8k81kl-MbHgC" target="_blank" rel="noopener">PDF</a>, <a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:UebtZRa9Y70C" target="_blank" rel="noopener">PDF</a>, ...]</p> 
+      <p>We developed a non-contact CMR (Cardiac Magnetic Resonance) gating system in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial rPPG and chest SCG signals for robust triggers, aiming to reduce waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience.[href="https://jeit.ac.cn/en/article/doi/10.11999/JEIT251098" target="_blank" rel="noopener">PDF</a>, <a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:8k81kl-MbHgC" target="_blank" rel="noopener">PDF</a>, <a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:UebtZRa9Y70C" target="_blank" rel="noopener">PDF</a>, ...]</p> 
     </div> 
   </article>
 
@@ -89,7 +89,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Sleep Monitoring</h3>
-      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between the heartbeat detection of mmWave radar and Camera-SCG. [<a href="https://ieeexplore.ieee.org/abstract/document/10729858" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10517590" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10340050" target="_blank" rel="noopener">PDF</a>, ...]</p>
+      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between mmWave radar and Camera-SCG in terms of heartbeat detection. [<a href="https://ieeexplore.ieee.org/abstract/document/10729858" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10517590" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10340050" target="_blank" rel="noopener">PDF</a>, ...]</p>
     </div>
   </article>
 
