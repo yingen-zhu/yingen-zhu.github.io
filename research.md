@@ -79,7 +79,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Camera-based bimodal CMRI gating system</h3>
-      <p>We developed a non-contact CMR (Cardiac Magnetic Resonance) gating system in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial rPPG and chest SCG signals for robust triggers, aiming to reduce waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience.</p>
+      <p>We developed a non-contact CMR (Cardiac Magnetic Resonance) gating system in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial rPPG and chest SCG signals for robust triggers, aiming to reduce waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience.</p> 
     </div>
   </article>
 
@@ -89,7 +89,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Sleep Monitoring</h3>
-      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between the heartbeat detection of mmWave radar and Camera-SCG.</p>
+      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between the heartbeat detection of mmWave radar and Camera-SCG. [<a href="https://ieeexplore.ieee.org/abstract/document/10729858" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10517590" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10340050" target="_blank" rel="noopener">PDF</a>, ...]</p>
     </div>
   </article>
 
@@ -99,7 +99,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Smartphone Health Assistant</h3>
-      <p>We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera-PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time. This framework can be extended to other valuable applications, including the detection of upper limb arterial occlusion caused by diabetes. [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:YOwf2qJgpHMC" target="_blank" rel="noopener">PDF</a>, <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:Zph67rFs4hoC" target="_blank" rel="noopener">PDF</a> ...]</p>
+      <p>We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera-PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time. This framework can be extended to other valuable applications, including the detection of upper limb arterial occlusion caused by diabetes. [<a href="https://ieeexplore.ieee.org/abstract/document/11252747" target="_blank" rel="noopener">PDF</a>, <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:Zph67rFs4hoC" target="_blank" rel="noopener">PDF</a>, ...]</p>
     </div>
   </article>
 </section>
