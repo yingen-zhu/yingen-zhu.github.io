@@ -99,7 +99,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Smartphone Health Assistant</h3>
-      <p>We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera-PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time. This framework can be extended to other valuable applications, including the detection of upper limb arterial occlusion caused by diabetes.</p>
+      <p>We propose a smartphone-based framework that uses built-in front and rear cameras to estimate multidimensional physiological parameters including HR, HRV, RR, SpO2, and BP, and further improve camera-PPG frame rate via a defocused design and rolling shutter mechanism for high-frame-rate measurements such as multi-wavelength pulse transit time. This framework can be extended to other valuable applications, including the detection of upper limb arterial occlusion caused by diabetes. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:YOwf2qJgpHMC" target="_blank" rel="noopener">PDF</a>, <a href="[https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:YOwf2qJgpHMC](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=oDyHLIwAAAAJ&sortby=pubdate&citation_for_view=oDyHLIwAAAAJ:Zph67rFs4hoC)" target="_blank" rel="noopener">PDF</a></p>
     </div>
   </article>
 </section>
