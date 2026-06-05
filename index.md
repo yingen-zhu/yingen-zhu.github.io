@@ -320,7 +320,7 @@ title: Home
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[Present] 🤫 ... </li>
-        <li>[2026.06] 🎇 One paper on Cardiac MRI is published in TBME, the last project I fully involved in during my master’s program. </li>
+        <li>[2026.06] 🎇 One paper on Cardiac MRI is published in TBME, the last project I fully involved in during my master’s program [<a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2025.08] 🕵️ I started my PhD journey!</li>
       </ul>
     </section>
