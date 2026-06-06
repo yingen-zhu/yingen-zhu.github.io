@@ -78,7 +78,7 @@ For further details on these projects, please see my <a href="https://scholar.go
       ></iframe>
     </div>
     <div class="research-content">
-      <h3></h3>
+      <h3>Ongoing</h3>
       <p>Take a guess ... 🧐</p> 
     </div> 
   </article>
