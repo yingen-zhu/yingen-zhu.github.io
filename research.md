@@ -74,6 +74,19 @@ For further details on these projects, please see my <a href="https://scholar.go
     <div class="research-media">
       <iframe
         src="/assets/images/FigureLock.pdf"
+        title="Template PDF"
+      ></iframe>
+    </div>
+    <div class="research-content">
+      <h3></h3>
+      <p>Take a guess ... 🧐</p> 
+    </div> 
+  </article>
+  
+  <article class="research-item">
+    <div class="research-media">
+      <iframe
+        src="/assets/images/FigureLock.pdf"
         title="Camera-based bimodal CMRI gating system PDF"
       ></iframe>
     </div>
