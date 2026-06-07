@@ -72,10 +72,7 @@ For further details on these projects, please see my <a href="https://scholar.go
 <section class="research-list">
   <article class="research-item">
     <div class="research-media">
-      <iframe
-        src="/assets/images/FigureLock.pdf"
-        title="Template PDF"
-      ></iframe>
+      <img src="/assets/images/FigureLock.png" alt="Template">
     </div>
     <div class="research-content">
       <h3>Ongoing</h3>
