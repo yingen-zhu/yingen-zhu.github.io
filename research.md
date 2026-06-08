@@ -72,11 +72,11 @@ For further details on these projects, please see my <a href="https://scholar.go
 <section class="research-list">
   <article class="research-item">
     <div class="research-media">
-      <img src="/assets/images/FigureLock.png" alt="Template">
+      <img src="/assets/images/Thinking.png" alt="Template">
     </div>
     <div class="research-content">
       <h3>Ongoing</h3>
-      <p>Take a guess ... 🧐</p> 
+      <p>Hit me up and let's figure out what chaos we should create next...</p> 
     </div> 
   </article>
   
