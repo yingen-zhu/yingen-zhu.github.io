@@ -239,30 +239,12 @@ title: Home
   }
   /* QR Code 样式 */
   .qr-code-container {
-    background: #c41e3a;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.2);
-  }
-  .qr-code-container img {
-    width: 160px;
-    height: 160px;
-    background: white;
-    padding: 10px;
-    border-radius: 6px;
     display: block;
   }
-  .qr-code-label {
-    color: white;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
+  .qr-code-container img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
   @media (max-width: 900px) {
     .profile-hero {
@@ -335,8 +317,7 @@ title: Home
     
     <!-- QR Code Section -->
     <div class="qr-code-container">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://yingen-zhu.github.io/" alt="QR Code to Personal Website">
-      <p class="qr-code-label">Scan to visit my website</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://yingen-zhu.github.io/" alt="QR Code">
     </div>
   </aside>
 
