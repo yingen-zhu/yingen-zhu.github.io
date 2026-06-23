@@ -239,10 +239,12 @@ title: Home
   }
   /* QR Code 样式 */
   .qr-code-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .qr-code-container img {
-    width: 100%;
+    width: 66.67%;
     height: auto;
     display: block;
   }
