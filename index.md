@@ -237,6 +237,33 @@ title: Home
   .news-list li + li {
     margin-top: 4px;
   }
+  /* QR Code 样式 */
+  .qr-code-container {
+    background: #c41e3a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.2);
+  }
+  .qr-code-container img {
+    width: 160px;
+    height: 160px;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: block;
+  }
+  .qr-code-label {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+  }
   @media (max-width: 900px) {
     .profile-hero {
       grid-template-columns: 1fr;
@@ -305,10 +332,16 @@ title: Home
         <span>yingen@u.nus.edu</span>
       </a>
     </div>
+    
+    <!-- QR Code Section -->
+    <div class="qr-code-container">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://yingen-zhu.github.io/" alt="QR Code to Personal Website">
+      <p class="qr-code-label">Scan to visit my website</p>
+    </div>
   </aside>
 
   <div class="profile-main">
-    <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>. I earned my Bachelor’s degree in Electronic Information Engineering from Xiangtan University.</p>
+    <p>I am a PhD student at <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, working with <a href="https://www.irmandyw.com/" target="_blank" rel="noopener">Irmandy Wicaksono</a>. Previously, I conducted healthcare research under the supervision of Professor <a href="https://sites.google.com/site/rppgwenjin/" target="_blank" rel="noopener">Wenjin Wang</a> at <a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener">SUSTech</a>. I earned my Bachelor's degree in Electronic Information Engineering from Xiangtan University.</p>
     <p>My research interests:</p>
     <ul>
       <li>Mobile computing</li>
@@ -320,7 +353,7 @@ title: Home
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[Present] 🤫 ... </li>
-        <li>[2026.06] 🎇 One paper on Cardiac MRI is accepted in TBME, the last project I fully involved in during my master’s program [<a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>]. </li>
+        <li>[2026.06] 🎇 One paper on Cardiac MRI is accepted in TBME, the last project I fully involved in during my master's program [<a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2025.08] 🕵️ I started my PhD journey!</li>
       </ul>
     </section>
