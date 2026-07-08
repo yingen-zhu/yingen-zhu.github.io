@@ -326,14 +326,15 @@ title: Home
     <p>My research interests:</p>
     <ul>
       <li>Mobile computing</li>
-      <li>Multimodal systems</li>
-      <li>Wearable technologies</li>
+      <li>Wearable multimodal system</li>
+      <li>Physical AI</li>
       <li>Human-computer interaction</li>
     </ul>
       <section class="news-section" aria-labelledby="news-title">
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[Present] 🤫 ... </li>
+        <li>[2026.07] 🫀 One paper on heart sound is accepted in JBHI [<a href="https://ieeexplore.ieee.org/document/11595741" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2026.06] 🎇 One paper on Cardiac MRI is accepted in TBME, the last project I fully involved in during my master's program [<a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2025.08] 🕵️ I started my PhD journey!</li>
       </ul>
