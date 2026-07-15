@@ -99,7 +99,7 @@ For further details on these projects, please see my <a href="https://scholar.go
     </div>
     <div class="research-content">
       <h3>Sleep Monitoring</h3>
-      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between mmWave radar and Camera-SCG in terms of heartbeat detection. [<a href="https://ieeexplore.ieee.org/abstract/document/10729858" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10517590" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10340050" target="_blank" rel="noopener">PDF</a>, ...]</p>
+      <p>Camera-based contactless physiological monitoring is promising for sleep tracking yet limited by privacy concerns. We therefore propose a privacy-preserving framework using defocused cameras to measure heart rate, respiration rate, sleep posture and body movement via a dual-branch network. We also did a simple comparison between mmWave radar and Camera-SCG in terms of heartbeat detection. [<a href="https://ieeexplore.ieee.org/abstract/document/10729858" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10517590" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10340050" target="_blank" rel="noopener">PDF</a>, <a href="https://www.sciencedirect.com/science/chapter/monograph/abs/pii/B9780443265860000065" target="_blank" rel="noopener">PDF</a> ...]</p>
     </div>
   </article>
 
