@@ -334,7 +334,7 @@ title: Home
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[Present] 🤫 ... </li>
-        <li>[2026.07] 🇨🇳 I’m honored to be a student volunteer for UbiComp/ISWC 2026. Let’s meet in Shanghai this October! </li>
+        <li>[2026.07] 🇨🇳 I’m honored to be a student volunteer for UbiComp/ISWC 2026. Let’s meet in Shanghai this October [<a href="https://www.ubicomp.org/ubicomp-iswc-2026" target="_blank" rel="noopener">Link</a>]! </li>
         <li>[2026.07] 🫀 One paper on heart sound is accepted in JBHI(IF=7.7) [<a href="https://ieeexplore.ieee.org/document/11595741" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2026.06] 🎇 One paper on Cardiac MRI is accepted in TBME(IF=4.4), the last project I fully involved in during my master's program [<a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>]. </li>
         <li>[2025.08] 🕵️ I started my PhD journey!</li>
