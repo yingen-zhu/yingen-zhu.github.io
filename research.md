@@ -82,10 +82,7 @@ For further details on these projects, please see my <a href="https://scholar.go
   
   <article class="research-item">
     <div class="research-media">
-      <iframe
-        src="/assets/images/CMRIcover.pdf"
-        title="Camera-based bimodal CMRI gating system PDF"
-      ></iframe>
+      <img src="/assets/images/CMRIcover.png" alt="CMRI">
     </div>
     <div class="research-content">
       <h3>Camera-based bimodal CMRI gating system</h3>
