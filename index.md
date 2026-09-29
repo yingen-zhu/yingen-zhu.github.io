@@ -13,41 +13,10 @@ title: Home
     background: #f8f8f8;
     color: #111;
   }
-  .container {
+  main.container {
     width: min(1080px, 100%);
     margin: 0 auto;
     padding: 0 20px;
-  }
-  .site-header {
-    background: #111;
-    color: #fff;
-  }
-  .header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 18px 0;
-  }
-  .brand a {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .site-nav {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-  .site-nav a {
-    color: #fff;
-    font-weight: 600;
-    opacity: 0.95;
-    background: transparent;
-  }
-  .site-nav a:hover,
-  .site-nav a:focus {
-    opacity: 1;
   }
   .profile-hero {
     display: grid;
@@ -256,13 +225,9 @@ title: Home
     }
   }
   @media (max-width: 640px) {
-    .site-header,
     .profile-hero {
       padding-left: 0;
       padding-right: 0;
-    }
-    .site-nav {
-      gap: 16px;
     }
   }
 </style>
