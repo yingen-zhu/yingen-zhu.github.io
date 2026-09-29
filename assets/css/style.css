@@ -7,6 +7,14 @@ html {
   overflow-y: scroll;
 }
 
+/* Reserve the same space even when the page does not need to scroll. */
+@supports (scrollbar-gutter: stable) {
+  html {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+  }
+}
+
 body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
