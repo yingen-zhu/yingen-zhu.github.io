@@ -13,11 +13,6 @@ title: Home
     background: #f8f8f8;
     color: #111;
   }
-  main.container {
-    width: min(1080px, 100%);
-    margin: 0 auto;
-    padding: 0 20px;
-  }
   .profile-hero {
     display: grid;
     grid-template-columns: minmax(186px, 240px) 1fr;
