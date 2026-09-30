@@ -252,3 +252,10 @@ main {
     font-size: 0.98rem;
   }
 }
+
+/* Shared Home-sized content area; header geometry stays independent. */
+main.container {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  padding: 0 20px;
+}
