@@ -79,6 +79,17 @@ For further details on these projects, please see my <a href="https://scholar.go
       <p>Hit me up and let's figure out what chaos we should create next...</p> 
     </div> 
   </article>
+
+  <section class="research-list">
+  <article class="research-item">
+    <div class="research-media">
+      <img src="/assets/images/NETs.png" alt="Template">
+    </div>
+    <div class="research-content">
+      <h3>Ongoing</h3>
+      <p>BodyNETs turns clothing into a network of small sensing points. Flexible modules connected by stretchable links capture movement and nearby environmental conditions from different parts of the body. Their arrangement can be adapted for sleeve controls, robotic interaction, or upper-body motion capture. In immersive visualisations, the same streams of data become ripples, colour fields, and organic forms extending around a digital body. The project explores how a reusable sensing network can connect physical action with digital experiences, while making the relationship between a moving person and their surroundings more perceptible. [<a href="https://dl.acm.org/doi/abs/10.1145/3832015" target="_blank" rel="noopener">PDF</a>...]</p> 
+    </div> 
+  </article>
   
   <article class="research-item">
     <div class="research-media">
