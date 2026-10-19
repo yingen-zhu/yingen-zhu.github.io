@@ -86,7 +86,7 @@ For further details on these projects, please see my <a href="https://scholar.go
       <img src="/assets/images/NETs.png" alt="Template">
     </div>
     <div class="research-content">
-      <h3>Ongoing</h3>
+      <h3>BodyNETs System</h3>
       <p>BodyNETs turns clothing into a network of small sensing points. Flexible modules connected by stretchable links capture movement and nearby environmental conditions from different parts of the body. Their arrangement can be adapted for sleeve controls, robotic interaction, or upper-body motion capture. In immersive visualisations, the same streams of data become ripples, colour fields, and organic forms extending around a digital body. The project explores how a reusable sensing network can connect physical action with digital experiences, while making the relationship between a moving person and their surroundings more perceptible. [<a href="https://dl.acm.org/doi/abs/10.1145/3832015" target="_blank" rel="noopener">PDF</a>...]</p> 
     </div> 
   </article>
@@ -96,7 +96,7 @@ For further details on these projects, please see my <a href="https://scholar.go
       <img src="/assets/images/CMRIcover.png" alt="CMRI">
     </div>
     <div class="research-content">
-      <h3>Camera-based bimodal CMRI gating system</h3>
+      <h3>Camera-based Bimodal CMRI Gating System</h3>
       <p>We developed a non-contact CMR (Cardiac Magnetic Resonance) gating system in collaboration with Shanghai Neusoft Medical Systems, using a dual-camera system to capture facial rPPG and chest SCG signals for robust triggers, aiming to reduce waveform distortion and delays in conventional ECG/PPG gating and improve CMR image quality and user experience. The final solution for Camera-SCG should be the structured-light-based defocused speckle method. [<a href="https://ieeexplore.ieee.org/document/11657657" target="_blank" rel="noopener">PDF</a>, <a href="https://ieeexplore.ieee.org/document/11551360" target="_blank" rel="noopener">PDF</a>, <a href="https://jeit.ac.cn/en/article/doi/10.11999/JEIT251098" target="_blank" rel="noopener">PDF</a>, <a href="/assets/documents/cnPatentStructuredLightSensing.PDF" target="_blank" rel="noopener">PDF</a>, <a href="/assets/documents/cnPatentMRI.PDF" target="_blank" rel="noopener">PDF</a>, <a href="/assets/documents/cnPatentMRI-2.PDF" target="_blank" rel="noopener">PDF</a>...]</p> 
     </div> 
   </article>
