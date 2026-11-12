@@ -294,7 +294,7 @@ title: Home
       <h2 class="news-title" id="news-title">News</h2>
       <ul class="news-list">
         <li>[Present] 🤫 ... </li>
-        <li>[2026.11] 🩻 We further improved the Camera-SCG to make it more robust and easier to use (JBHI, IF=7.7) [<a href="https://ieeexplore.ieee.org/document/11790324" target="_blank" rel="noopener">PDF</a>].  </li>
+        <li>[2026.11] 📷 We further improved the Camera-SCG to make it more robust and easier to use (JBHI, IF=7.7) [<a href="https://ieeexplore.ieee.org/document/11790324" target="_blank" rel="noopener">PDF</a>].  </li>
         <li>[2026.10] 🏆 Ubicomp/ISWC Design Exhibition Award, Functional Category, 2026. [<a href="https://yingen-zhu.github.io" target="_blank" rel="noopener">Link</a>].  </li>
         <li>[2026.08] 🩻 One more paper on Cardiac MRI is accepted by JBHI (IF=7.7) [<a href="https://ieeexplore.ieee.org/document/11657657" target="_blank" rel="noopener">PDF</a>].  </li>
         <li>[2026.07] 🏃‍♂️ I’m honored to be a student volunteer for UbiComp/ISWC 2026. Let’s meet in Shanghai this October [<a href="https://www.ubicomp.org/ubicomp-iswc-2026" target="_blank" rel="noopener">Link</a>]! </li>
